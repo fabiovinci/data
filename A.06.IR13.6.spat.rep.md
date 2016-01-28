@@ -13,8 +13,8 @@ Grab the resource and check the spatial representation. Validate if it matches t
 
     <gmd:spatialRepresentationType>
       <gmd:MD_SpatialRepresentationTypeCode
-         codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml"
-         codeListValue="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#vector" />
+         codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
+         codeListValue="vector" />
     </gmd:spatialRepresentationType>
 
 **Reference(s)**	 
@@ -31,4 +31,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-Value | gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode@codeListValue
+<a name="codeList"></a> codeList   | gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode@codeList
+<a name="codeListValue"></a> codeListValue   | gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode@codeListValue
